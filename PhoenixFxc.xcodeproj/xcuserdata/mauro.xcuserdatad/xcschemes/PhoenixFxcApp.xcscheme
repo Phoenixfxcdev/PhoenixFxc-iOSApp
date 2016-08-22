@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "342EF9D11D5CC88C00C3F1CA"
-               BuildableName = "PhoenixFxcApp.app"
-               BlueprintName = "PhoenixFxcApp"
-               ReferencedContainer = "container:PhoenixFxcApp.xcodeproj">
+               BuildableName = "PhoenixFxc.app"
+               BlueprintName = "PhoenixFxc"
+               ReferencedContainer = "container:PhoenixFxc.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "342EF9E71D5CC88C00C3F1CA"
-               BuildableName = "PhoenixFxcAppTests.xctest"
-               BlueprintName = "PhoenixFxcAppTests"
-               ReferencedContainer = "container:PhoenixFxcApp.xcodeproj">
+               BuildableName = "PhoenixFxc.xctest"
+               BlueprintName = "PhoenixFxcTests"
+               ReferencedContainer = "container:PhoenixFxc.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "342EF9F21D5CC88C00C3F1CA"
-               BuildableName = "PhoenixFxcAppUITests.xctest"
-               BlueprintName = "PhoenixFxcAppUITests"
-               ReferencedContainer = "container:PhoenixFxcApp.xcodeproj">
+               BuildableName = "PhoenixFxc.xctest"
+               BlueprintName = "PhoenixFxcUITests"
+               ReferencedContainer = "container:PhoenixFxc.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "342EF9D11D5CC88C00C3F1CA"
-            BuildableName = "PhoenixFxcApp.app"
-            BlueprintName = "PhoenixFxcApp"
-            ReferencedContainer = "container:PhoenixFxcApp.xcodeproj">
+            BuildableName = "PhoenixFxc.app"
+            BlueprintName = "PhoenixFxc"
+            ReferencedContainer = "container:PhoenixFxc.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "342EF9D11D5CC88C00C3F1CA"
-            BuildableName = "PhoenixFxcApp.app"
-            BlueprintName = "PhoenixFxcApp"
-            ReferencedContainer = "container:PhoenixFxcApp.xcodeproj">
+            BuildableName = "PhoenixFxc.app"
+            BlueprintName = "PhoenixFxc"
+            ReferencedContainer = "container:PhoenixFxc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "342EF9D11D5CC88C00C3F1CA"
-            BuildableName = "PhoenixFxcApp.app"
-            BlueprintName = "PhoenixFxcApp"
-            ReferencedContainer = "container:PhoenixFxcApp.xcodeproj">
+            BuildableName = "PhoenixFxc.app"
+            BlueprintName = "PhoenixFxc"
+            ReferencedContainer = "container:PhoenixFxc.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

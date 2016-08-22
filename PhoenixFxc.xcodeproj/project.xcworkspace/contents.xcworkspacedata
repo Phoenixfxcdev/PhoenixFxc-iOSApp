@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PhoenixFxcApp.xcodeproj">
+      location = "self:/Users/mauro/GitHub/PhoenixFxc-iOSApp/PhoenixFxc.xcodeproj">
    </FileRef>
 </Workspace>

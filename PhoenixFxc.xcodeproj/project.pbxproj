@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		342EF9D61D5CC88C00C3F1CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342EF9D51D5CC88C00C3F1CA /* AppDelegate.swift */; };
-		342EF9D81D5CC88C00C3F1CA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342EF9D71D5CC88C00C3F1CA /* FirstViewController.swift */; };
+		342EF9D81D5CC88C00C3F1CA /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342EF9D71D5CC88C00C3F1CA /* NewsViewController.swift */; };
 		342EF9DA1D5CC88C00C3F1CA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342EF9D91D5CC88C00C3F1CA /* SecondViewController.swift */; };
 		342EF9DD1D5CC88C00C3F1CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342EF9DB1D5CC88C00C3F1CA /* Main.storyboard */; };
 		342EF9DF1D5CC88C00C3F1CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342EF9DE1D5CC88C00C3F1CA /* Assets.xcassets */; };
@@ -35,18 +35,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		342EF9D21D5CC88C00C3F1CA /* PhoenixFxcApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoenixFxcApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		342EF9D21D5CC88C00C3F1CA /* PhoenixFxc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoenixFxc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		342EF9D51D5CC88C00C3F1CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		342EF9D71D5CC88C00C3F1CA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		342EF9D71D5CC88C00C3F1CA /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		342EF9D91D5CC88C00C3F1CA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		342EF9DC1D5CC88C00C3F1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		342EF9DE1D5CC88C00C3F1CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342EF9E11D5CC88C00C3F1CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342EF9E31D5CC88C00C3F1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		342EF9E81D5CC88C00C3F1CA /* PhoenixFxcAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoenixFxcAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342EF9E81D5CC88C00C3F1CA /* PhoenixFxc.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoenixFxc.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342EF9EC1D5CC88C00C3F1CA /* PhoenixFxcAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoenixFxcAppTests.swift; sourceTree = "<group>"; };
 		342EF9EE1D5CC88C00C3F1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		342EF9F31D5CC88C00C3F1CA /* PhoenixFxcAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoenixFxcAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		342EF9F31D5CC88C00C3F1CA /* PhoenixFxc.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoenixFxc.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342EF9F71D5CC88C00C3F1CA /* PhoenixFxcAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoenixFxcAppUITests.swift; sourceTree = "<group>"; };
 		342EF9F91D5CC88C00C3F1CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,9 +89,9 @@
 		342EF9D31D5CC88C00C3F1CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				342EF9D21D5CC88C00C3F1CA /* PhoenixFxcApp.app */,
-				342EF9E81D5CC88C00C3F1CA /* PhoenixFxcAppTests.xctest */,
-				342EF9F31D5CC88C00C3F1CA /* PhoenixFxcAppUITests.xctest */,
+				342EF9D21D5CC88C00C3F1CA /* PhoenixFxc.app */,
+				342EF9E81D5CC88C00C3F1CA /* PhoenixFxc.xctest */,
+				342EF9F31D5CC88C00C3F1CA /* PhoenixFxc.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				342EF9D51D5CC88C00C3F1CA /* AppDelegate.swift */,
-				342EF9D71D5CC88C00C3F1CA /* FirstViewController.swift */,
+				342EF9D71D5CC88C00C3F1CA /* NewsViewController.swift */,
 				342EF9D91D5CC88C00C3F1CA /* SecondViewController.swift */,
 				342EF9DB1D5CC88C00C3F1CA /* Main.storyboard */,
 				342EF9DE1D5CC88C00C3F1CA /* Assets.xcassets */,
@@ -131,9 +131,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		342EF9D11D5CC88C00C3F1CA /* PhoenixFxcApp */ = {
+		342EF9D11D5CC88C00C3F1CA /* PhoenixFxc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342EF9FC1D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcApp" */;
+			buildConfigurationList = 342EF9FC1D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxc" */;
 			buildPhases = (
 				342EF9CE1D5CC88C00C3F1CA /* Sources */,
 				342EF9CF1D5CC88C00C3F1CA /* Frameworks */,
@@ -143,14 +143,14 @@
 			);
 			dependencies = (
 			);
-			name = PhoenixFxcApp;
+			name = PhoenixFxc;
 			productName = PhoenixFxcApp;
-			productReference = 342EF9D21D5CC88C00C3F1CA /* PhoenixFxcApp.app */;
+			productReference = 342EF9D21D5CC88C00C3F1CA /* PhoenixFxc.app */;
 			productType = "com.apple.product-type.application";
 		};
-		342EF9E71D5CC88C00C3F1CA /* PhoenixFxcAppTests */ = {
+		342EF9E71D5CC88C00C3F1CA /* PhoenixFxcTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342EF9FF1D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcAppTests" */;
+			buildConfigurationList = 342EF9FF1D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcTests" */;
 			buildPhases = (
 				342EF9E41D5CC88C00C3F1CA /* Sources */,
 				342EF9E51D5CC88C00C3F1CA /* Frameworks */,
@@ -161,14 +161,14 @@
 			dependencies = (
 				342EF9EA1D5CC88C00C3F1CA /* PBXTargetDependency */,
 			);
-			name = PhoenixFxcAppTests;
+			name = PhoenixFxcTests;
 			productName = PhoenixFxcAppTests;
-			productReference = 342EF9E81D5CC88C00C3F1CA /* PhoenixFxcAppTests.xctest */;
+			productReference = 342EF9E81D5CC88C00C3F1CA /* PhoenixFxc.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		342EF9F21D5CC88C00C3F1CA /* PhoenixFxcAppUITests */ = {
+		342EF9F21D5CC88C00C3F1CA /* PhoenixFxcUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342EFA021D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcAppUITests" */;
+			buildConfigurationList = 342EFA021D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcUITests" */;
 			buildPhases = (
 				342EF9EF1D5CC88C00C3F1CA /* Sources */,
 				342EF9F01D5CC88C00C3F1CA /* Frameworks */,
@@ -179,9 +179,9 @@
 			dependencies = (
 				342EF9F51D5CC88C00C3F1CA /* PBXTargetDependency */,
 			);
-			name = PhoenixFxcAppUITests;
+			name = PhoenixFxcUITests;
 			productName = PhoenixFxcAppUITests;
-			productReference = 342EF9F31D5CC88C00C3F1CA /* PhoenixFxcAppUITests.xctest */;
+			productReference = 342EF9F31D5CC88C00C3F1CA /* PhoenixFxc.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 342EF9CD1D5CC88C00C3F1CA /* Build configuration list for PBXProject "PhoenixFxcApp" */;
+			buildConfigurationList = 342EF9CD1D5CC88C00C3F1CA /* Build configuration list for PBXProject "PhoenixFxc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +220,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				342EF9D11D5CC88C00C3F1CA /* PhoenixFxcApp */,
-				342EF9E71D5CC88C00C3F1CA /* PhoenixFxcAppTests */,
-				342EF9F21D5CC88C00C3F1CA /* PhoenixFxcAppUITests */,
+				342EF9D11D5CC88C00C3F1CA /* PhoenixFxc */,
+				342EF9E71D5CC88C00C3F1CA /* PhoenixFxcTests */,
+				342EF9F21D5CC88C00C3F1CA /* PhoenixFxcUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -261,7 +261,7 @@
 			files = (
 				342EF9DA1D5CC88C00C3F1CA /* SecondViewController.swift in Sources */,
 				342EF9D61D5CC88C00C3F1CA /* AppDelegate.swift in Sources */,
-				342EF9D81D5CC88C00C3F1CA /* FirstViewController.swift in Sources */,
+				342EF9D81D5CC88C00C3F1CA /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		342EF9EA1D5CC88C00C3F1CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 342EF9D11D5CC88C00C3F1CA /* PhoenixFxcApp */;
+			target = 342EF9D11D5CC88C00C3F1CA /* PhoenixFxc */;
 			targetProxy = 342EF9E91D5CC88C00C3F1CA /* PBXContainerItemProxy */;
 		};
 		342EF9F51D5CC88C00C3F1CA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 342EF9D11D5CC88C00C3F1CA /* PhoenixFxcApp */;
+			target = 342EF9D11D5CC88C00C3F1CA /* PhoenixFxc */;
 			targetProxy = 342EF9F41D5CC88C00C3F1CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -403,10 +403,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PhoenixFxcApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phxfxc.PhoenixFxcApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phxfxc.PhoenixFxc;
+				PRODUCT_NAME = PhoenixFxc;
 			};
 			name = Debug;
 		};
@@ -414,10 +415,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PhoenixFxcApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.phxfxc.PhoenixFxcApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.phxfxc.PhoenixFxc;
+				PRODUCT_NAME = PhoenixFxc;
 			};
 			name = Release;
 		};
@@ -428,8 +430,8 @@
 				INFOPLIST_FILE = PhoenixFxcAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phxfxc.PhoenixFxcAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoenixFxcApp.app/PhoenixFxcApp";
+				PRODUCT_NAME = PhoenixFxc;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoenixFxc.app/PhoenixFxc";
 			};
 			name = Debug;
 		};
@@ -440,8 +442,8 @@
 				INFOPLIST_FILE = PhoenixFxcAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phxfxc.PhoenixFxcAppTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoenixFxcApp.app/PhoenixFxcApp";
+				PRODUCT_NAME = PhoenixFxc;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhoenixFxc.app/PhoenixFxc";
 			};
 			name = Release;
 		};
@@ -451,7 +453,7 @@
 				INFOPLIST_FILE = PhoenixFxcAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phxfxc.PhoenixFxcAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PhoenixFxc;
 				TEST_TARGET_NAME = PhoenixFxcApp;
 			};
 			name = Debug;
@@ -462,7 +464,7 @@
 				INFOPLIST_FILE = PhoenixFxcAppUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.phxfxc.PhoenixFxcAppUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PhoenixFxc;
 				TEST_TARGET_NAME = PhoenixFxcApp;
 			};
 			name = Release;
@@ -470,7 +472,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		342EF9CD1D5CC88C00C3F1CA /* Build configuration list for PBXProject "PhoenixFxcApp" */ = {
+		342EF9CD1D5CC88C00C3F1CA /* Build configuration list for PBXProject "PhoenixFxc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342EF9FA1D5CC88C00C3F1CA /* Debug */,
@@ -479,29 +481,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342EF9FC1D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcApp" */ = {
+		342EF9FC1D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342EF9FD1D5CC88C00C3F1CA /* Debug */,
 				342EF9FE1D5CC88C00C3F1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		342EF9FF1D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcAppTests" */ = {
+		342EF9FF1D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342EFA001D5CC88C00C3F1CA /* Debug */,
 				342EFA011D5CC88C00C3F1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		342EFA021D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcAppUITests" */ = {
+		342EFA021D5CC88C00C3F1CA /* Build configuration list for PBXNativeTarget "PhoenixFxcUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342EFA031D5CC88C00C3F1CA /* Debug */,
 				342EFA041D5CC88C00C3F1CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
